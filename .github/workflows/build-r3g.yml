@@ -5,14 +5,13 @@
 
 name: Build XIAOMI-R3G
 
-on:
-    release:
-      types: published
-    push:
-      branches:
-        - master
-      paths:
-        - '.config'
+on: 
+  release:
+    types: [published]
+  push:
+    branches: 
+      - master
+
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:

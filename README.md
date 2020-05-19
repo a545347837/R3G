@@ -1,4 +1,4 @@
-# XiaoMi-R3G
+# XiaoMi-R3G 学习之用 请勿刷机
 自动从lean的lede源码clone并生成R3G固件
 
 *将本项目fork到自己账号下,进行以下操作即可得到专属定制固件*

@@ -33,5 +33,5 @@ git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverch
 echo '下载AdGuard Home'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome ../diy/luci-app-adguardhome
 
-echo '首页增加CPU频率动态显示'
-cp -f ../diy/mod-index.htm ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
+#echo '首页增加CPU频率动态显示'
+#cp -f ../diy/mod-index.htm ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm

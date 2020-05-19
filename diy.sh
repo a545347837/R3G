@@ -1,8 +1,8 @@
 echo '修改机器名称'
 sed -i 's/OpenWrt/Mi-R3G/g' package/base-files/files/bin/config_generate
 
-#echo '修改网关地址'
-#sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+echo '修改网关地址'
+sed -i 's/192.168.1.1/192.168.15.1/g' package/base-files/files/bin/config_generate
 
 echo '修改时区'
 sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
@@ -29,3 +29,9 @@ git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverch
 
 #echo '集成diy目录'
 #ln -s ../../diy ./package/openwrt-packages
+
+echo '下载AdGuard Home'
+git clone https://github.com/rufengsuixing/luci-app-adguardhome ../diy/luci-app-adguardhome
+
+echo '首页增加CPU频率动态显示'
+cp -f ../diy/mod-index.htm ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm

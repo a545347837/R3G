@@ -1,9 +1,5 @@
 echo '修改机器名称'
-<<<<<<< HEAD
 sed -i 's/OpenWrt/Mi-R3G/g' package/base-files/files/bin/config_generate
-=======
-sed -i 's/OpenWrt/MI-R3G/g' package/base-files/files/bin/config_generate
->>>>>>> 670076d039b6e4251246ed06c9fbe951c4e3892a
 
 echo '修改网关地址'
 sed -i 's/192.168.1.1/192.168.15.1/g' package/base-files/files/bin/config_generate

@@ -78,7 +78,6 @@ jobs:
       with:
         name: XIAOMI-R3G
         path: ./lede/bin
-<<<<<<< HEAD
 
     - name: Organize files
       id: organize
@@ -104,5 +103,3 @@ jobs:
         curl -fsSL git.io/file-transfer | sh
         ./transfer cow --block 2621440 -s -p 64 --no-progress ${FIRMWARE} 2>&1 | tee cowtransfer.log
         echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
-=======
->>>>>>> 670076d039b6e4251246ed06c9fbe951c4e3892a

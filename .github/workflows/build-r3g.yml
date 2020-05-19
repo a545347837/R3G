@@ -5,8 +5,7 @@
 
 name: Build XIAOMI-R3G
 
-on: 
-  repository_dispatch:
+on:
     release:
       types: published
     push:

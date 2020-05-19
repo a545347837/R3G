@@ -1,7 +1,7 @@
 # XiaoMi-R3G 学习之用 请勿刷机
 自动从lean的lede源码clone并生成R3G固件
 
-*将本项目fork到自己账号下,进行以下操作即可得到专属定制固件*
+![.github/workflows/build-r3g.yml](https://github.com/indiboy/R3G/workflows/.github/workflows/build-r3g.yml/badge.svg)
 
 1.diy.sh
 可以编辑自定义和修改的脚本,可以直接修改JK预留的脚本,也可以自己编写

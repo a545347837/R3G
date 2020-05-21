@@ -53,7 +53,7 @@ jobs:
 
       - name: Load custom feeds
         run: |
-          [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
+          [ -e $FEEDS_CONF ] && mv $FEEDS_CONF lede/feeds.conf.default
           cd lede && ./scripts/feeds clean
 
       - name: Update feeds

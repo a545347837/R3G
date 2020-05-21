@@ -27,8 +27,8 @@ cp -f ../banner package/base-files/files/etc/
 echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverchan
 
-echo '集成diy目录'
-ln -s ../../diy ./package/openwrt-packages
+# echo '集成diy目录'
+# ln -s ../../diy ./package/openwrt-packages
 
 echo '下载AdGuard Home'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome ../diy/luci-app-adguardhome
